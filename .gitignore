@@ -1,0 +1,67 @@
+# ------------------------------
+# Python & Virtual Environment
+# ------------------------------
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.log
+*.sqlite3
+
+# ------------------------------
+# Environment & API Keys
+# ------------------------------
+.env
+.env.local
+.DS_Store
+*.key
+*.pem
+openai_key.txt
+
+# ------------------------------
+# Streamlit & App Cache
+# ------------------------------
+.streamlit/
+.streamlit/secrets.toml
+logs/
+logs/*
+.cache/
+.cache/*
+__pycache__/
+
+# ------------------------------
+# Data & Uploads
+# ------------------------------
+uploads/
+*.csv
+*.pdf
+*.docx
+*.json
+
+# ------------------------------
+# IDE & OS Specific
+# ------------------------------
+.idea/
+.vscode/
+*.swp
+*.swo
+*.bak
+Thumbs.db
+
+# ------------------------------
+# FAISS Index / Vector Stores
+# ------------------------------
+*.faiss
+*.index
+*.npy
+*.pkl
+
+# ------------------------------
+# Build / Distribution
+# ------------------------------
+dist/
+build/
+*.egg-info/
+*.spec
